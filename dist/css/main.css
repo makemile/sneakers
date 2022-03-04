@@ -109,7 +109,6 @@
 .img-fluid {
   border-radius: 10px;
   margin-top: -40px;
-  height: 55vh;
   vertical-align: middle;
   margin-top: -8rem;
 }
@@ -223,11 +222,16 @@ img {
 
   .img-fluid {
     margin-top: -3rem;
+    height: 55vh;
   }
 
   .figure {
     display: flex;
     justify-content: center;
+  }
+  
+  .hr{
+    width: 93%;
   }
 
   .image-slider {
