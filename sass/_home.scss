@@ -1,0 +1,87 @@
+.home {
+  margin-top: 10rem;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  margin-top: -40px;
+  height: 55vh;
+  vertical-align: middle;
+  margin-top: -8rem;
+}
+
+.image-slider {
+  width: 58%;
+  position: absolute;
+  display: flex;
+  margin-right: -90px;
+  transition: 0.7s;
+  justify-content: center;
+  grid-gap: 1.5rem;
+  visibility: hidden;
+}
+
+.slides-div {
+  display: flex;
+  img {
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px;
+  }
+}
+
+img {
+  position: relative;
+  filter: saturate(90%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.62);
+  border: 2px groove rgba(255, 125, 27, 1);
+  border-radius: 10px;
+}
+
+.col-md-5 {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  border-radius: 7px;
+  background: rgba(255, 125, 27, 1);
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  img {
+    width: 15px;
+    svg {
+      color: #fff;
+    }
+  }
+  .p-add {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+  }
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 2rem;
+  background: $color-button;
+  height: 8vh;
+  border-radius: 7px;
+  .count {
+    color: $text-title;
+    font-weight: 700;
+  }
+}

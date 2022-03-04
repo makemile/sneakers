@@ -1,0 +1,29 @@
+$color-primary: rgba(255, 125, 27, 1);
+$color-secondary: rgba(173, 174, 179, 1);
+$color-button: rgba(247, 248, 253, 1);
+$text-title: rgba(29, 28, 33, 1);
+$text-hover: rgba(238, 238, 239, 1);
+$text-decoration: rgba(243, 243, 245, 1);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin transition-ease {
+    transition: all 5s ease-in-out;
+    
+}
+
+@mixin media-md {
+  @media screen and (min-width: 376px) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media screen and (min-width: 1440px) {
+    @content;
+  }
+}

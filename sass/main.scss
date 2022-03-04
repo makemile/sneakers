@@ -1,0 +1,92 @@
+@import "./config";
+@import "./menu.scss";
+@import "./home";
+@import "./responsive";
+
+body {
+  background-color: #fff;
+  height: 100vh;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: $text-title;
+}
+
+h3 {
+  color: rgba(29, 28, 33, 1);
+  font-weight: bold;
+}
+
+h6 {
+  color: rgba(255, 125, 27, 1);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.p-description {
+  margin-top: 2rem;
+  color: $color-secondary;
+  line-height: 1.5rem;
+}
+
+.p-price {
+  font-weight: 700;
+  color: rgba(29, 28, 33, 1);
+  font-size: 30px;
+}
+
+.p-reabate {
+  font-weight: 700;
+  color: rgba(255, 125, 27, 1);
+  background-color: rgba(252, 239, 228, 1);
+  width: 50px;
+  height: 3vh;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: -15px;
+}
+
+.p-beffore {
+  color: rgba(173, 174, 179, 1);
+  font-weight: 700;
+  text-decoration: line-through;
+  margin-top: 0.5rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-gap: 1rem;
+
+    &__icon-cart {
+      img {
+        color: $color-secondary;
+        width: 1.5rem;
+      }
+    }
+    &__img-avatar {
+      img {
+        width: 3rem;
+      }
+    }
+  }
+  .logo {
+    margin-left: 3.5rem;
+    img {
+      width: 8rem;
+    }
+  }
+}
